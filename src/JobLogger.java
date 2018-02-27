@@ -10,7 +10,13 @@ import java.util.logging.ConsoleHandler;
 import java.util.logging.FileHandler;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-
+/*
+ * 1- Review class
+ * In this class are many errors, I paste the original class with comments about the parts of the code 
+ * what i'm see as wrong, but the most important for mi is the lack of exception controls using try/catch 
+ * and the bad practice of doing everything in one big method, what is a point of a class if you put all 
+ * the job in a single method?. The others problems that i see are commented in the following class.
+ */
 @Deprecated
 public class JobLogger {
 	private static boolean logToFile;
